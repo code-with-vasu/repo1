@@ -1,0 +1,9 @@
+1. Install GitHub
+
+check version>>  git --version
+
+2. Configure Git (first time only)
+Set your name & email (used for commits):
+
+git configure global user.name
+git configure global user.email

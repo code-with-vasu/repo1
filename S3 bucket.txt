@@ -1,0 +1,47 @@
+What Is S3 Bucket?.
+
+Simple Storage Service
+  1. Create
+  2. Upload  here every file treat as a Object
+Durability And Scalability
+  1. Once a object Created this is available in 3 Availability Zone
+     Once a Availability Zone is not available  it references to the remaining two available zones.
+  2. Durability is s3 bucket for 99.999999999(11Nines)
+Rules And Policies
+  1.Names  >>> Unique names
+  2.Region >>> belongs to a region
+  3.Size   >>> upto 5TB
+Accessing S3 By CLI
+  1.Download Aws CLI For Windows
+  2.check the version if it installed
+  3.configure 
+    @.Access Key
+    @.Access Secret Key
+  4.test connectivity  >> Aws sts get-caller-identity
+  5.List Of Buckets >> aws s3 ls
+  6.content inside the bucket >>> aws s3 ls s3://bucketname
+  7.move object from one bucket to another bucket
+    aws s3 mv s3://bucket name moving/object name s3://bucketname
+  8.inside the bucket what are they the components there(folders/files)
+    aws s3 ls s3://bucket name -- recursive
+Storage Classes(7)
+  1.s3 standard
+  2.s3 standard IA
+  3.s3 intelligent-tiering
+  4.s3 one zone IA
+  5.s3 glacier instant retrieval
+  6.s3 glacier flexible retrieval
+  7.s3 glacier deep archive 
+
+Storage Calculator
+  1.Price and cost here price will be depends on Storage Classes  price will be reduced top to bottom 1 >> 7
+S3 Requestor pays:
+my aws account have a s3 bucket this bucket will be used another user so he paid only for request-access cost he do not need to pay s3 bucket price
+Object Tagging
+>>>>
+S3 Permission Policies
+    
+
+
+
+
