@@ -1,1 +1,28 @@
-Hello vasu
+Git is a distributed version control system (DVCS) used to track changes in source code and collaborate with other developers. It helps developers manage projects, keep history, and work on the same codebase without overwriting each other’s work.
+i. Lets you go back to any previous version if needed.
+ii. Repository (Repo)
+
+A Git project is stored in a repository.
+
+Two types:
+
+Local repository: On your computer.
+
+Remote repository: On platforms like GitHub, GitLab, Bitbucket.
+
+iii. Branching & Merging
+
+You can create branches to work on features without disturbing the main code.
+
+Later, you can merge the branch back.
+
+
+Steps:
+
+
+git init.
+git remote add origin repository
+    i. git remote remove origin (if remote is there)
+3. git status
+4. git add .
+5. git commit -m "Initial commit"
