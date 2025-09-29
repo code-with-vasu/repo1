@@ -26,3 +26,4 @@ git remote add origin repository
 3. git status
 4. git add .
 5. git commit -m "Initial commit"
+6. git push -u origin master
